@@ -1,0 +1,42 @@
+.clockContainer{
+    position: relative;
+    margin: auto ;/*center e anar jnno */
+    /* border: 2px solid red; */
+    height: 40vw;/*to make it responsive in various screen size.*/
+    width: 40vw;
+    background: url(clock.png) no-repeat;
+    background-size: 100%;
+}
+.hour , .minute, .sec{
+    position: absolute;
+    
+    border-radius: 10px;
+    transform-origin: bottom;
+}
+.hour{
+    top: 25%;
+    background-color:black;
+    height: 25%;
+    width: 1.4%;
+    left: 49.1%;
+    opacity: 0.8;
+}
+.minute{
+    background-color: black;
+    top: 20.5%;
+    height: 30%;
+    width: 1.4%;
+    left: 49.1%;
+    opacity: 0.8;
+
+}
+.sec{
+    background-color: black;
+    top: 14.5%;
+    height: 34%;
+    width: 1.1%;
+    left: 49.4%;
+    opacity: 0.8;
+  
+}
+
